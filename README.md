@@ -75,7 +75,7 @@ cp .env.example .env
 
 ```env
 PORT=5050
-MONGO_URI=mongodb+srv://mndiaye_db_user:Barcelone11%40@studentdb.vxannrl.mongodb.net/event_ticketing?retryWrites=true&w=majority&appName=StudentDB
+MONGO_URI= mongodb_connection_string_here
 JWT_SECRET=eventTicketingSecret2026
 JWT_EXPIRES_IN=7d
 NODE_ENV=development
