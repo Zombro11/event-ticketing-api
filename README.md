@@ -55,7 +55,7 @@ event-ticketing-api/
 1. Clone the repository.
 
 ```bash
-git clone https://github.com/your-username/event-ticketing-api.git
+git clone https://github.com/Zombro11/event-ticketing-api.git
 cd event-ticketing-api
 ```
 
@@ -76,7 +76,7 @@ cp .env.example .env
 ```env
 PORT=5050
 MONGO_URI= mongodb_connection_string_here
-JWT_SECRET=eventTicketingSecret2026
+JWT_SECRET= jwt_secret_here
 JWT_EXPIRES_IN=7d
 NODE_ENV=development
 ```
